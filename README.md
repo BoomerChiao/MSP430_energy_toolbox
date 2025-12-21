@@ -22,7 +22,7 @@ MSP430 是由德州儀器（Texas Instruments）開發的 16 位元 RISC 控制�
 <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/86b17ced-ae22-4933-86ae-5aa04901e767" />
 
 ##  MSP430 Project　（MSP430 專案）
-此專案基於 ElectronicWings 提供的範例為基礎進行擴充設計，部分 ElectronicWings 尚未提供的內容，未來將提供相關程式及硬體應用實例。
+此專案基於 [ElectronicWings](https://www.electronicwings.com/ti-launchpad) 提供的範例為基礎進行擴充設計，部分 ElectronicWings 尚未提供的內容，未來將提供相關程式及硬體應用實例。
 
 
 ###  Driver
@@ -42,4 +42,6 @@ MSP430 是由德州儀器（Texas Instruments）開發的 16 位元 RISC 控制�
 5. 
 6. 
 
-
+##  References　（參考資料）
+1. https://energia.nu/
+2. https://www.electronicwings.com/ti-launchpad
