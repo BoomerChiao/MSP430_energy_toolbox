@@ -1,11 +1,11 @@
 # MSP430_epd2in13_V4
 
 本程式碼是由 [waveshare](https://www.waveshare.net/wiki/2.13inch_e-Paper_HAT_Manual#Arduino
-) 所提供的 E-paper 範例程式代碼進行改寫的程式碼，並透過 Energia 開發環境進行程式編譯。
+) 所提供的 E-paper 範例代碼進行改寫，並透過 Energia 開發環境進行程式編譯。
 
 
-程式代碼邏輯基本於 [waveshare](https://www.waveshare.net/wiki/2.13inch_e-Paper_HAT_Manual#Arduino
-) 提供原始範例一致，並未修改其內部核心代碼驅動內容，僅針對 MSP430FR2433 所需 I/O 引腳進行調整。
+程式代碼邏輯基於 [waveshare](https://www.waveshare.net/wiki/2.13inch_e-Paper_HAT_Manual#Arduino
+) 所提供原始範例一致，並未修改其內部核心代碼內容，僅針對 MSP430FR2433 所需 I/O 引腳進行調整。
 
 <img width="1380" height="394" alt="image" src="https://github.com/user-attachments/assets/04b68058-f406-4d84-bf7a-c731578a3c8a" />
 
