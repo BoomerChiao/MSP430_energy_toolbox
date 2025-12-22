@@ -1,7 +1,7 @@
 # MSP430_energy_toolbox
 The personal MSP430 development toolbox based on Energia.
 
-這是由 MSP430 控制器，並透過了Energia軟體進行程式開發與燒錄起源地專案。
+這是由 MSP430 控制器為核心，並透過了 Energia 軟體進行程式開發環境起源地專案。
 
 
 ##  Summary　（概要）
