@@ -57,7 +57,10 @@
 
 <img width="675" height="290" alt="image" src="https://github.com/user-attachments/assets/ce25895a-5626-4d9b-9b91-b19db4e1a7e3" />
 
-
+# 目前可用模水螢幕(E Ink)
+1. waveshare 2.13inch e-Paper HAT Manual
+2. zhongjingyuan  2.13inch e-Paper ZJY22250-0213BAAMFGN
+3. 2.13inch SSD1680Z 
 
 
 
