@@ -1,5 +1,10 @@
 # MSP430_BeanCounter
 
+[![MIT License][mit-shield]][mit]
+
+[mit]: https://opensource.org/licenses/MIT
+[mit-shield]: https://img.shields.io/badge/License-MIT-yellow.svg
+
 MSP430_BeanCounter 是一款小型 SMT 元件計數器。
 支援 電池供電 與 USB 供電 兩種模式，可依使用場景彈性切換。USB 供電採用線性穩壓器 (LDO) ，確保外部電壓輸入至系統供電能夠穩定並降低雜訊干擾。
 
