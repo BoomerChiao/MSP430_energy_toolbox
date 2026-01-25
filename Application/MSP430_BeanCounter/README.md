@@ -28,12 +28,16 @@ MSP430_BeanCounter 是由德州儀器（Texas Instruments）開發的 MSP430FR24
 
 ##  Import data　（導入資料）
 1. 下載 GitHub 資料 code 專案：
-   - 你可以從目前瀏覽 GitHub 專案下載所需的專案，分別為 2IRPT_OLED_VREF、2IRPT_OLEDm_SHT_VREF，兩個版本，可依需求選擇其中之一。
+   - 你可以從目前瀏覽 GitHub 專案下載所需的專案，分別為 [2IRPT_OLED_VREF](https://github.com/BoomerChiao/MSP430_energy_toolbox/blob/main/Application/MSP430_BeanCounter/2IRPT_OLED_VREF/2IRPT_OLED_VREF.rar)、[2IRPT_OLEDm_SHT_VREF](https://github.com/BoomerChiao/MSP430_energy_toolbox/blob/main/Application/MSP430_BeanCounter/2IRPT_OLEDm_SHT_VREF/2IRPT_OLEDm_SHT_VREF.rar)，兩個版本，可依需求選擇其中之一。
 
      下載檔案：https://github.com/BoomerChiao/MSP430_energy_toolbox/tree/main/Application/MSP430_BeanCounter
      
+     2IRPT_OLED_VREF　RAR當案：https://github.com/BoomerChiao/MSP430_energy_toolbox/blob/main/Application/MSP430_BeanCounter/2IRPT_OLED_VREF/2IRPT_OLED_VREF.rar
+     
+     2IRPT_OLEDm_SHT_VREF　RAR當案：https://github.com/BoomerChiao/MSP430_energy_toolbox/blob/main/Application/MSP430_BeanCounter/2IRPT_OLEDm_SHT_VREF/2IRPT_OLEDm_SHT_VREF.rar
+     
     
-2. 開啟 MSP430_BeanCounter 程式：
+2. 開啟 MSP430 程式：
    - 以下將提供 3 種導入方式
       1. 。
       2. 。
