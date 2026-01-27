@@ -38,13 +38,23 @@ MSP430_BeanCounter 是由德州儀器（Texas Instruments）開發的 MSP430FR24
      
     
 2. 開啟 MSP430 程式：
-   - 以下將提供 3 種導入方式
-      1. 。
-      2. 。
-      3. 。
+   - 請至 GitHub 專案介面下，下載所需程式檔案，並將主程式檔案拖移至 Energia 應用程式中開啟即可。
+   - (下圖以 2IRPT_OLEDm_SHT_VREF 為示例)
+
+   <img width="947" height="514" alt="image" src="https://github.com/user-attachments/assets/036220f5-19ba-4166-b90a-9fcb79967f45" />
+
          
 
+##  Prepare Electronic Materials　（準備電子材料）
+1. ST-LINK/V2
+2. STM32G030F6P6 Mini Development or STM32G030F6P6 
+3. 0.96' OLED Display 128×64 4Pin IIC I2C
+4. SHT40 (3.3V)
+5. button switch 4 pin 6×6×4.5mm *2
+6. Jumper Wires
 
+
+##  Pin wiring　（引腳接線）
 
 
 ##  References　（參考資料）
