@@ -35,7 +35,7 @@ MSP430 是由德州儀器（Texas Instruments）開發的 16 位元 RISC 控制�
 
 
 ###  Application
-1. 
+1. [MSP430_BeanCounter](https://github.com/BoomerChiao/MSP430_energy_toolbox/tree/main/Application/MSP430_BeanCounter)
 2. 
 3. 
 4. 
