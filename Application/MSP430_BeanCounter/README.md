@@ -46,16 +46,28 @@ MSP430_BeanCounter 是由德州儀器（Texas Instruments）開發的 MSP430FR24
          
 
 ##  Prepare Electronic Materials　（準備電子材料）
-1. ST-LINK/V2
-2. STM32G030F6P6 Mini Development or STM32G030F6P6 
-3. 0.96' OLED Display 128×64 4Pin IIC I2C
-4. SHT40 (3.3V)
-5. button switch 4 pin 6×6×4.5mm *2
-6. Jumper Wires
+### DEMO
+1. MSP-EXP430FR2433
+2. 0.96' OLED Display 128×64 4Pin IIC I2C
+3. SHT40 (3.3V)
+4. ROHM RPI-246
+5. 330Ω *2
+6. 10KΩ *2
+7. Breadboard
+8. Jumper Wires
 
+<img width="1058" height="720" alt="image" src="https://github.com/user-attachments/assets/174e0eca-1dd0-4bd0-9759-4f87f0a501a5" />
 
 ##  Pin wiring　（引腳接線）
 
+
+
+### EXTREME
+1. MSP430FR2433
+2. 0.96' OLED Display 128×64 4Pin IIC I2C
+3. SHT40
+4. ROHM RPI-246
+5.
 
 ##  References　（參考資料）
 1. https://energia.nu/
