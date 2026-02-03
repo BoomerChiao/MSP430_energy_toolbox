@@ -136,52 +136,43 @@ MSP430_BeanCounter 是由德州儀器（Texas Instruments）開發的 MSP430FR24
 <img width="1576" height="554" alt="image" src="https://github.com/user-attachments/assets/0b4cb7b7-f7b6-4a05-a621-fdfbf84b0cfa" />
 
 1. SMD MLCC 
-   - C1、C4、C5、C6、C7：100nF-1206 or N/A 
-   - C2、C3：10uF-1206
+   - C1、C8：100nF-1206 or N/A 
+   - C9：100nF-0805 or N/A 
+   - C7：22uF-1206
+   - C2、C6：10uF-1206 or N/A 
+   - C4、C5：N/A 
 
 2. SMD Resistors
-   - R1、R2、R3、R4、R5、R6、R7、R8、R15、R16：0Ω-0805
-   - R9、R17、R18：10kΩ-0805
-   - R10、R11：1kΩ-0805
-   - R12、R13、R14：4.7kΩ-0805 or N/A
+   - R1、R6、R7、R10、R13：0Ω-0805
+   - R2、R3：5.1kΩ-1206
+   - R4、R5：330Ω-0805
+   - R8：200KΩ-0805
+   - R9：100KΩ-0805
+   - R11：470Ω-0805
+   - R12：0KΩ-1206
 
 3. SMD Active component
-   - D1、D3：1N4007 or M7
-   - U1：STM32G030F6P6TR or STM32G031F8P6
-   - U2：HT7333-3 (SOT89)
-   - U3：SHT40
-   - U4：DS18B20 or N/A
+   - Q1、Q2：AO3400A_SOT-23
+   - ITR1、ITR2：RPI-246_DIP-4
+   - SHT40：SHT40_4-DFN (1.5x1.5)
+   - U1：MSP430FR2433IRGER_VQFN-24-EP (4x4)
+   - U3：HT7533_SOT-89
   
 4. SMD LED
-   - LED1、LED2：LED-1206 (XL-3216UGC)
+   - LED1：NCD0805R1_0805
 
 5. Button switch 
-   - SW1：(DIP) button switch 4 pin 6×6×4.5mm
-   - U5：(SMD) XUNPU QS-301-AGS5P
+   - SW1：(SMD) button switch 4 pin 6×6×4.5mm
+   - SW2、SW3：(DIP) button switch 4 pin 6×6×4.5mm
+   - SW4：(DIP) SK12D07VG5
 
-6. DIP and SMD Connectors 
-   - H1、H2：DIP 2.54mm Plugin 1x12P Pin Headers (HB-PH3-254112PB2GOP)
-   - H3、H12、H15：DIP 2.54mm Plugin 1x4P Pin Headers (HB-PH3-25414PB2GOP)
-   - H5：DIP 2.54mm Plugin 1x2P Pin Headers (PZ254V-11-02P)
-   - H4、H6、H7：DIP 2.54mm Plugin 1x4P Female Headers (BX-PM2.54-1-4PY)
-   - H8、H9、H10：SMD CONN HEADER 4POS 2.54mm SINGLE ROW SMD (X6511WVS-04H-C60D48R1) or N/A
-   - H11：SMD CONN HEADER 8POS 2.54mm SINGLE ROW SMD (X6511WVS-08H-C60D48R2) or N/A
-   - H13：N/A
-   - H14：DIP 2.54mm Plugin 3P Straight 1x3P Pin Headers or 3P slide switch (BX-PZ2.54-1-3PZZ) or (3Pin Slide Switches-SPDT)
+6. Connectors & Power Interface
+   - OLED1：DIP 2.54mm Plugin 1x4P Female Headers (BX-PM2.54-1-4PY)
+   - H1、H2、H3、H4、H5、H6：N/A
+   - BT1：[HanElectricity CR2032-B1](https://www.lcsc.com/product-detail/C48601332.html)
+   - USB：[KH-TYPE-C-6P-T](https://www.lcsc.com/product-detail/C709356.html)
    
 
-7. Power Connector
-   - BT1：Q&J CR2032 3V
-
-
-
-
-
-1. MSP430FR2433
-2. 0.96' OLED Display 128×64 4Pin IIC I2C
-3. SHT40
-4. ROHM RPI-246
-5.
 
 ##  References　（參考資料）
 1. https://energia.nu/
