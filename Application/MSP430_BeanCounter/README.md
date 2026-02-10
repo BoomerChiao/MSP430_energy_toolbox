@@ -108,11 +108,71 @@ MSP430_BeanCounter 是由德州儀器（Texas Instruments）開發的 MSP430FR24
   　
 
 ## EXTREME　（進階設計）
-1. MSP430FR2433
-2. 0.96' OLED Display 128×64 4Pin IIC I2C
-3. SHT40
-4. ROHM RPI-246
-5.
+為了讓裝置更加精簡，並且讓整體作品達到小巧化目標，採用了 PCB 印刷電路技術，取代傳統體積龐大、佈線雜亂且不易管理的電路，使得電路有序且可靠。
+
+供電電路設計了「電池供電」與「USB供電」兩種模式，可依不同使用情境彈性切換。
+其中 USB 供電採用線性穩壓器（LDO）作為電源管理方案，確保外部電壓輸入至系統供電時能有效穩定電壓值，並降低雜訊干擾，提升整體系統穩定性。
+
+此外，電路中整合了紅外線光遮斷器以及溫濕度感測器，使裝置除了基本功能外，亦具環境溫溼感測能力，進一步讓整體設計更具完整性與彈性功能。
+
+可在此下載 Gerber 檔案，並上傳至 JLCPCB 進行 PCB 訂製
+- Gerber：
+- JLCPCB：https://jlcpcb.com/
+
+也可在此下載原理圖及 PCB 檔案，以進行後續編輯。
+- oshwlab：
+
+###  Circuit Design （電路設計）
+<img width="1496" height="785" alt="image" src="https://github.com/user-attachments/assets/1fb1fb46-9a56-434e-a7d4-6c38f21f124b" />
+
+- MCU 採用 MSP430 系列晶片，並以 MSP430FR2433 為系統核心。
+- 供電設計採用 Type-C + HT7533 及 CR2032(鈕扣電池)，可依不同使用情境彈性切換供電來源。
+- 主感測器選用 ROHM RPI-246 ，該感測器具備優異的抗電磁干擾能力，主要用於偵測物體是否通過感測區域，以作為計數的依據。
+- 副感測器選用 Sensirion SHT40 低功耗溫濕度感測器，主要用於即時量測環境溫濕度資訊。
+- Voltage sensor 採用兩顆高精密電阻形成分壓電路，透過電壓差方式，提供 MCU 準確系統電壓數值。
+
+ 　
+###  PCB layout （電路布局）
+<img width="1576" height="554" alt="image" src="https://github.com/user-attachments/assets/0b4cb7b7-f7b6-4a05-a621-fdfbf84b0cfa" />
+
+1. SMD MLCC 
+   - C1、C8：100nF-1206 or N/A 
+   - C9：100nF-0805 or N/A 
+   - C7：22uF-1206
+   - C2、C6：10uF-1206 or N/A 
+   - C4、C5：N/A 
+
+2. SMD Resistors
+   - R1、R6、R7、R10、R13：0Ω-0805
+   - R2、R3：5.1kΩ-1206
+   - R4、R5：330Ω-0805
+   - R8：200KΩ-0805
+   - R9：100KΩ-0805
+   - R11：470Ω-0805
+   - R12：0KΩ-1206
+
+3. SMD Active component
+   - Q1、Q2：AO3400A_SOT-23
+   - ITR1、ITR2：RPI-246_DIP-4
+   - SHT40：SHT40_4-DFN (1.5x1.5)
+   - U1：MSP430FR2433IRGER_VQFN-24-EP (4x4)
+   - U3：HT7533_SOT-89
+  
+4. SMD LED
+   - LED1：NCD0805R1_0805
+
+5. Button switch 
+   - SW1：(SMD) button switch 4 pin 6×6×4.5mm
+   - SW2、SW3：(DIP) button switch 4 pin 6×6×4.5mm
+   - SW4：(DIP) SK12D07VG5
+
+6. Connectors & Power Interface
+   - OLED1：DIP 2.54mm Plugin 1x4P Female Headers (BX-PM2.54-1-4PY)
+   - H1、H2、H3、H4、H5、H6：N/A
+   - BT1：[HanElectricity CR2032-B1](https://www.lcsc.com/product-detail/C48601332.html)
+   - USB：[KH-TYPE-C-6P-T](https://www.lcsc.com/product-detail/C709356.html)
+   
+
 
 ##  References　（參考資料）
 1. https://energia.nu/
