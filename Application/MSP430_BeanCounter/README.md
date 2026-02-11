@@ -132,7 +132,7 @@ MSP430_BeanCounter 是由德州儀器（Texas Instruments）開發的 MSP430FR24
 - Voltage sensor 採用兩顆高精密電阻形成分壓電路，透過電壓差方式，提供 MCU 準確系統電壓數值。
 
  　
-###  PCB layout （電路布局）
+### EXTREME　（進階設計）  PCB layout （電路布局）
 <img width="1576" height="554" alt="image" src="https://github.com/user-attachments/assets/0b4cb7b7-f7b6-4a05-a621-fdfbf84b0cfa" />
 
 1. SMD MLCC 
@@ -172,6 +172,10 @@ MSP430_BeanCounter 是由德州儀器（Texas Instruments）開發的 MSP430FR24
    - BT1：[HanElectricity CR2032-B1](https://www.lcsc.com/product-detail/C48601332.html)
    - USB：[KH-TYPE-C-6P-T](https://www.lcsc.com/product-detail/C709356.html)
    
+
+##  3D casing （3D外殼）
+
+
 
 
 ##  References　（參考資料）
