@@ -126,7 +126,7 @@ MSP430_BeanCounter 是由德州儀器（Texas Instruments）開發的 MSP430FR24
 此外，電路中整合了紅外線光遮斷器以及溫濕度感測器，使裝置除了基本功能外，亦具環境溫溼感測能力，進一步讓整體設計更具完整性與彈性功能。
 
 可在此下載 Gerber 檔案，並上傳至 JLCPCB 進行 PCB 訂製
-- Gerber：
+- Gerber：https://github.com/BoomerChiao/MSP430_energy_toolbox/tree/main/Application/MSP430_BeanCounter/PCB
 - JLCPCB：https://jlcpcb.com/
 
 也可在此下載原理圖及 PCB 檔案，以進行後續編輯。
