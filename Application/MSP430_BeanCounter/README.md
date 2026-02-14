@@ -175,6 +175,19 @@ MSP430_BeanCounter 是由德州儀器（Texas Instruments）開發的 MSP430FR24
 
 ##  3D casing （3D外殼）
 
+<img width="615" height="564" alt="image" src="https://github.com/user-attachments/assets/ee60646d-ad61-4bfa-b3ed-eee1ba6e422d" />
+
+
+<img width="429" height="524" alt="image" src="https://github.com/user-attachments/assets/4bfc8814-0ec7-417a-b9e9-62534ea9bde1" />
+
+
+<img width="1024" height="899" alt="image" src="https://github.com/user-attachments/assets/8eccdc17-6b5b-428d-9189-94be8348d124" />
+
+
+<img width="1024" height="885" alt="image" src="https://github.com/user-attachments/assets/475a5f5e-16f3-48ac-a525-f237dd4aadc4" />
+
+
+
 
 
 
