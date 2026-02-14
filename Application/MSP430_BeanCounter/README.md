@@ -180,18 +180,61 @@ MSP430_BeanCounter 是由德州儀器（Texas Instruments）開發的 MSP430FR24
 
 <img width="429" height="524" alt="image" src="https://github.com/user-attachments/assets/4bfc8814-0ec7-417a-b9e9-62534ea9bde1" />
 
+⬆上圖所示的外殼分別為 MSP430_BeanCounter-TOP、MSP430_BeanCounter-AD、MSP430_BeanCounter-AP 的 STL 檔案
+
+下載3D檔案：https://github.com/BoomerChiao/MSP430_energy_toolbox/tree/main/Application/MSP430_BeanCounter/STL
+
+thingiverse：
+
+  
+
+###  3D printed enclosure assembly　（3D外殼組裝）
+
 
 <img width="1024" height="899" alt="image" src="https://github.com/user-attachments/assets/8eccdc17-6b5b-428d-9189-94be8348d124" />
 
+⬆請先準備 M3 螺絲、螺帽 M3 和 M3 單頭細牙銅柱，請參考如下數量
+1. [M3 預埋件銅螺帽](https://www.ebay.com/itm/405117422227) *2
+2. M3x5 螺絲 *2
+3. MSP430_BeanCounter-TOP *1
+4. MSP430_BeanCounter-AP *3
+5. MSP430_BeanCounter-AD *1
+
+ 　
 
 <img width="1024" height="885" alt="image" src="https://github.com/user-attachments/assets/475a5f5e-16f3-48ac-a525-f237dd4aadc4" />
 
 
+<img width="640" height="480" alt="image" src="https://github.com/BoomerChiao/MSP430_energy_toolbox/blob/main/png/MSP430xSHT40xOLED_3D_AGIF.gif" />
+
+⬆ 安裝 M3 預埋件銅螺帽時，需要拿鑷子配合烙鐵，先以鑷子夾持螺帽對準孔位，接著使用烙鐵由上方加熱並緩慢下壓，使螺帽融入材料中。
+
+　 
+
+<img width="1024" height="692" alt="image" src="https://github.com/user-attachments/assets/2dd45917-870a-47ba-adbc-245d7498a768" />
 
 
+<img width="1024" height="825" alt="image" src="https://github.com/user-attachments/assets/a3e45c77-76ce-4459-81d3-50e7f29f78b4" />
+
+
+<img width="1024" height="849" alt="image" src="https://github.com/user-attachments/assets/b6cd7a34-e4ef-4efc-b835-569c659a0bd2" />
+
+
+<img width="1024" height="811" alt="image" src="https://github.com/user-attachments/assets/e2f511b8-6a40-4301-955e-86b008bead9b" />
+
+<img width="1024" height="843" alt="image" src="https://github.com/user-attachments/assets/6d76ea18-8ba2-4b15-942b-4dda07eec826" />
+
+<img width="1024" height="784" alt="image" src="https://github.com/user-attachments/assets/7281211b-4afb-4a00-978e-c57b1f043900" />
+
+<img width="240" height="427" alt="image" src="https://github.com/BoomerChiao/MSP430_energy_toolbox/blob/main/png/MSP430xSHT40xOLED_3D_BGIF.gif" />
+
+<img width="240" height="427" alt="image" src="https://github.com/BoomerChiao/MSP430_energy_toolbox/blob/main/png/MSP430xSHT40xOLED_3D_CGIF.gif" />
 
 
 ##  References　（參考資料）
 1. https://energia.nu/
-2. https://www.waveshare.net/wiki/2.13inch_e-Paper_HAT_Manual#Arduino
+2. https://www.icshop.com.tw/products/368030501785
+3. https://wiki.dfrobot.com/SHT40_Humidity_and_Temperature_Sensor_SKU_SEN0428
+4. https://jlcpcb.com/
+5. https://www.phippselectronics.com/using-the-photo-interrupter-module-ky-010-with-arduino/?srsltid=AfmBOopJChmFargQRTzKt32CcYeibTl_LEq-lZxNGn7kpmKN9omY8v3p
 
