@@ -107,6 +107,16 @@ MSP430_BeanCounter 是由德州儀器（Texas Instruments）開發的 MSP430FR24
 
   　
 
+## Program version　（程式版本）
+[2IRPT_OLED_VREF](https://github.com/BoomerChiao/MSP430_energy_toolbox/tree/main/Application/MSP430_BeanCounter/2IRPT_OLED_VREF)：本版次基於基礎功能架構，如透過光遮斷器判斷偵測訊號進行數量轉換與判斷，實現精確計數功能。另整合電池電量檢測 (特規版本) 可即時監測供電狀態。
+
+[2IRPT_OLEDm_SHT_VREF](https://github.com/BoomerChiao/MSP430_energy_toolbox/tree/main/Application/MSP430_BeanCounter/2IRPT_OLEDm_SHT_VREF)：在 2IRPT_OLED_VREF 基礎版本上進行功能修正，修正電池電量檢測機制。當插入 Type-C 並切換至 USB 供電模式時，系統可檢測內部 BAT 電池電量準確值，實現電壓監測功能。
+
+[2IRPT_OLEDm_SHT_VREF_V1](https://github.com/BoomerChiao/MSP430_energy_toolbox/tree/main/Application/MSP430_BeanCounter/2IRPT_OLEDm_SHT_VREF_V1)：在 2IRPT_OLEDm_SHT_VREF 版本上新增功能優化，當光遮斷器處於運轉情況下，畫面自動顯示「LOAD」提示字樣，並且運轉期間關閉下方即時刷新小字顯示，透過減少畫面更新頻率，提升感測數據精準度與系統穩定性。
+<img width="300" height="188" alt="image" src="https://github.com/user-attachments/assets/43e1d211-1387-4d86-9005-185792e8d3e4" />
+
+ 　
+
 ## EXTREME　（進階設計）
 為了讓裝置更加精簡，並且讓整體作品達到小巧化目標，採用了 PCB 印刷電路技術，取代傳統體積龐大、佈線雜亂且不易管理的電路，使得電路有序且可靠。
 
@@ -132,7 +142,7 @@ MSP430_BeanCounter 是由德州儀器（Texas Instruments）開發的 MSP430FR24
 - Voltage sensor 採用兩顆高精密電阻形成分壓電路，透過電壓差方式，提供 MCU 準確系統電壓數值。
 
  　
-### EXTREME　（進階設計）  PCB layout （電路布局）
+###  PCB layout （電路布局）
 <img width="1576" height="554" alt="image" src="https://github.com/user-attachments/assets/0b4cb7b7-f7b6-4a05-a621-fdfbf84b0cfa" />
 
 1. SMD MLCC 
