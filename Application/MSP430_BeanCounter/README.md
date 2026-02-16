@@ -132,6 +132,11 @@ MSP430_BeanCounter 是由德州儀器（Texas Instruments）開發的 MSP430FR24
 也可在此下載原理圖及 PCB 檔案，以進行後續編輯。
 - oshwlab：
 
+<img width="500" height="430" alt="image" src="https://github.com/user-attachments/assets/bfd97945-4a47-46af-9b7a-817cbe819562" />
+
+P.S. PCB厚度建議選擇 1.0 毫米　(PCB Thickness 1.0mm)
+
+
 ###  Circuit Design （電路設計）
 <img width="1496" height="785" alt="image" src="https://github.com/user-attachments/assets/1fb1fb46-9a56-434e-a7d4-6c38f21f124b" />
 
@@ -194,7 +199,7 @@ MSP430_BeanCounter 是由德州儀器（Texas Instruments）開發的 MSP430FR24
 
 下載3D檔案：https://github.com/BoomerChiao/MSP430_energy_toolbox/tree/main/Application/MSP430_BeanCounter/STL
 
-thingiverse：
+thingiverse：https://www.thingiverse.com/thing:7296737
 
   
 
