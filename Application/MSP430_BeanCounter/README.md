@@ -130,7 +130,7 @@ MSP430_BeanCounter 是由德州儀器（Texas Instruments）開發的 MSP430FR24
 - JLCPCB：https://jlcpcb.com/
 
 也可在此下載原理圖及 PCB 檔案，以進行後續編輯。
-- oshwlab：
+- oshwlab：https://oshwlab.com/chiaochieh/msp430_beancounter
 
 <img width="500" height="430" alt="image" src="https://github.com/user-attachments/assets/bfd97945-4a47-46af-9b7a-817cbe819562" />
 
